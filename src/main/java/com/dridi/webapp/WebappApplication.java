@@ -5,6 +5,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
+
 @SpringBootApplication
 public class WebappApplication implements CommandLineRunner {
 
@@ -18,7 +20,7 @@ public class WebappApplication implements CommandLineRunner {
 	 * et l'afficher dans la cosole lors de l'exécution du projet
 	 */
 	@Autowired // Pour qu’un bean soit injecté dans un attribut
-	private CustomProperties props;
+	private CustomProperties props;	// injection du bean CustomProperties
 
 	@Override
 	public void run(String... args) throws Exception {
