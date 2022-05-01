@@ -1,4 +1,4 @@
-package model;
+package com.dridi.webapp.model;
 
 import lombok.Data;
 

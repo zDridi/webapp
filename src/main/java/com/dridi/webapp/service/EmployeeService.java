@@ -1,11 +1,11 @@
-package service;
+package com.dridi.webapp.service;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import model.Employee;
-import repository.EmployeeProxy;
+import com.dridi.webapp.model.Employee;
+import com.dridi.webapp.repository.EmployeeProxy;
 
 import lombok.Data;
 

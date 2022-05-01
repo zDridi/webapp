@@ -1,6 +1,6 @@
-package repository;
+package com.dridi.webapp.repository;
 
-import model.Employee;
+import com.dridi.webapp.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpEntity;

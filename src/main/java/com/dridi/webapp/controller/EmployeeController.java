@@ -1,4 +1,4 @@
-package controller;
+package com.dridi.webapp.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import model.Employee;
-import service.EmployeeService;
+import com.dridi.webapp.model.Employee;
+import com.dridi.webapp.service.EmployeeService;
 
 import lombok.Data;
 
