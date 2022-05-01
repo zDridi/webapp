@@ -25,7 +25,7 @@ public class WebappApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		System.out.println(props.getApiUrl());	// Afficher la valeur de com.dridi.webapp.apiUrl , dans la console
+		System.out.println("Port de l' API : " + props.getApiUrl());	// Afficher la valeur de com.dridi.webapp.apiUrl , dans la console
 
 	}
 
