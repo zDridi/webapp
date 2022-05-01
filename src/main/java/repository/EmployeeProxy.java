@@ -1,5 +1,6 @@
 package repository;
 
+import model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpEntity;
@@ -9,7 +10,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
 import com.dridi.webapp.CustomProperties;
-import model.Employee;
 
 import lombok.extern.slf4j.Slf4j;
 
